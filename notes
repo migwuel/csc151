@@ -2,3 +2,37 @@ for i in range(3):
   print ("row", "row", "row")
   for j in range():
   print("row your boat")
+
+my_list = ["pizza", 'A', 1, 30, 3.14] <<< [] is a listing bracket only
+pizza > string
+A > string (OR char)
+1 > int
+30 / 3.14 > int or boolean
+
+function to read my list
+print(len(my_list)) > 5 
+print(my_list[0]) > pizza <<< print and look for this item on my list
+print(my_list+[5]) > add something to my list
+print(my_list.append(5)) > add something to a list, but these makes it different because of brackets
+-1 will always be the last item on my last, -2, -3 and so on. so .pop is to remove items.
+
+WORKING WITH FUNCTIONS
+
+introduction to functions
+def my_fx(): > a group of statements within a program that perform a specific task
+ex. def function1():
+  statement
+  statement
+  statement
+def function2():
+  statement 
+  statement
+  statement
+and so on
+You would just call up function2() to bring up that specific coding task
+
+def my_list(name):
+  return name[0]
+my_fx("jewel") -- J E W E L / 0 1 2 3 4 
+so it would bring back "J"
+
