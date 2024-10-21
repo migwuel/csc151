@@ -33,6 +33,23 @@ You would just call up function2() to bring up that specific coding task
 
 def my_list(name):
   return name[0]
-my_fx("jewel") -- J E W E L / 0 1 2 3 4 
-so it would bring back "J"
+print(my_fx("jewel")) -- J E W E L / 0 1 2 3 4 
+so it would bring back "J"  <<< value-returning function (print, return, int)
 
+
+def my_ft(name):
+  print name[0] <<<< void function
+
+
+main function is called when the program starts
+
+
+name = "walter"
+def print_name(name):  <<<< different scopes (name vs print_name(name)) It deals with global constants 
+  print(name)
+
+If i wrote/ 
+print_name("walter")
+or 
+print(name):
+  Walter
